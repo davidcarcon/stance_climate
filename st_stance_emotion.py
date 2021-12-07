@@ -3,9 +3,9 @@ import modelos as md
 from scipy.special import softmax
 import numpy as np
 from nltk.sentiment import SentimentIntensityAnalyzer
-#import nltk
+import nltk
 from googletrans import Translator
-#nltk.download('vader_lexicon')
+nltk.download('vader_lexicon')
 
 translator = Translator()
 sia = SentimentIntensityAnalyzer()
